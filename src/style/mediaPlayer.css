@@ -1,0 +1,103 @@
+/* Contenitore principale */
+.music-player-container {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Titolo principale */
+.titles-track {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Pulsanti delle tracce */
+.title-track {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.title-track:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.title-track:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.title-track:disabled:hover {
+  background-color: #ccc;
+  transform: none;
+}
+
+/* Titolo traccia selezionata */
+.track-selected {
+  font-size: 1rem;
+}
+
+.track-selected {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .music-player-container {
+    padding: 15px;
+  }
+
+  .titles-track {
+    font-size: 1.7rem;
+  }
+
+  .title-track {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .track-selected {
+    font-size: 1.3rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .music-player-container {
+    padding: 10px;
+  }
+
+  .titles-track {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .title-track {
+    font-size: 0.8rem;
+    padding: 5px 17px;
+    max-width: 25%;
+    margin: 3px;
+  }
+
+  .track-selected {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}

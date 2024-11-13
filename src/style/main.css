@@ -1,0 +1,175 @@
+.home-container {
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.text-content {
+  flex: 2; /* 2/3 dello spazio */
+  padding: 13px;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.8em;
+  margin-bottom: 20px;
+}
+h2 {
+  color: #3498db;
+  font-size: 1.8em;
+  margin-top: 20px;
+}
+
+p {
+  color: #34495e;
+  line-height: 1.5;
+  font-size: 1.2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  background-color: #ecf0f1;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  color: #2c3e50;
+}
+
+.login-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.login-button:hover {
+  background-color: #357ae8;
+}
+
+.logout-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
+
+.left-image,
+.right-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-left,
+.image-right {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-image,
+  .right-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .image-left,
+  .image-right {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-image,
+  .right-image {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .text-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .image-left,
+  .image-right {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 2.6em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+
+  p {
+    line-height: 1.1;
+    font-size: 1.2em;
+  }
+
+  ul {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  ul li {
+    margin: 13px 0;
+    padding: 5px;
+    font-size: 1.1em;
+  }
+}

@@ -1,0 +1,61 @@
+/* Layout container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 86vh;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.login-container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.login-container button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #357ae8;
+}
+
+.logo-google {
+  display: block;
+  width: 400px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .logo-google {
+    width: 300px;
+    height: 170px;
+  }
+  .login-container button {
+    padding: 12px 27px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-google {
+    width: 230px;
+    height: 130px;
+  }
+  .login-container button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
