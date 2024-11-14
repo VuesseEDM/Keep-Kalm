@@ -8,8 +8,8 @@ const MusicPlayer = () => {
 
   const tracks = [
     { id: 1, name: 'Autumn Leaves ', url: '/audio/Autumn Leaves.mp3' },
-    { id: 2, name: 'Passion Hole', url: '/audio/Mountain Hole.mp3' },
-    { id: 3, name: 'The Dream', url: '/audio/The Dream.mp3' },
+    { id: 2, name: 'Passion Hole', url: '/audio/The Dream Land.mp3' },
+    { id: 3, name: 'The Dream', url: '/audio/cristo.mp3' },
   ];
 
   const handleTrackSelect = (track) => {
