@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/keep-kalm/static/css/main.dddad07f.css",
+    "main.js": "/keep-kalm/static/js/main.46634c23.js",
+    "index.html": "/keep-kalm/index.html",
+    "main.dddad07f.css.map": "/keep-kalm/static/css/main.dddad07f.css.map",
+    "main.46634c23.js.map": "/keep-kalm/static/js/main.46634c23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dddad07f.css",
+    "static/js/main.46634c23.js"
+  ]
+}
